@@ -113,3 +113,22 @@ html {
 .description.hidden p {
     transform: translateY(2vh);
 }
+
+.soundbutton {
+    position: fixed;
+    bottom: 5vh;
+    left: 5vw;
+    cursor: pointer;
+    width: 24px;
+    transition: .25s ease;
+}
+
+.soundbutton.paused {
+    opacity: .25;
+}
+
+.autor {
+    position: fixed;
+    bottom: 5vh;
+    left: 10vw;
+}
